@@ -1,0 +1,83 @@
+# Product Purchase and Discount Calculator
+
+## Requirement 12
+
+### Problem Statement
+
+Create a Java program that calculates the final payable amount for a product purchase based on product price, quantity, customer category, membership status, tax, and delivery charges.
+
+## Features
+
+The program calculates and displays:
+
+- Original Amount
+- Customer Discount
+- Membership Discount
+- Amount After Discount
+- Tax Amount
+- Delivery Charge
+- Final Payable Amount
+- Benefit Status
+
+## Customer Categories
+
+| Category | Discount |
+|----------|----------|
+| Regular Customer | 5% |
+| Student Customer | 10% |
+| Premium Customer | 15% |
+
+### Membership Discount
+
+Customers with an active membership receive an additional **5% discount**.
+
+## Technologies Used
+
+- Java
+- Switch Statement
+- Conditional Statements
+- Arithmetic Operators
+- Relational Operators
+- Logical Operators
+- Ternary Operator
+- Type Casting
+
+## Concepts Covered
+
+- Arithmetic operators
+- Assignment operators
+- Type casting
+- Decimal division
+- Relational operators
+- Logical operators
+- Nested conditions
+- Switch statement
+- Ternary operator
+
+## Sample Input
+
+The program uses hard-coded values:
+
+- Product: Headphones
+- Price: 2500.0
+- Quantity: 2
+- Customer Category: Student
+- Membership: Active
+- Tax: 18%
+- Delivery Charge: 100
+
+## Sample Output
+
+```text
+PURCHASE BILL
+
+Product: Headphones
+Original Amount: 5000.0
+Customer Discount: 500.0
+Membership Discount: 250.0
+Amount After Discount: 4250.0
+Tax Amount: 765.0
+Delivery Charge: 100.0
+
+Final Payable Amount: 5115.0
+Benefit Status: Membership benefit applied.
