@@ -1,5 +1,5 @@
 
-public class ProductPurchaseCalculator {
+public class Main {
 
     public static void main(String[] args) {
 
